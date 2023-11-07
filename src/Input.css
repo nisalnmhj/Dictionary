@@ -1,0 +1,30 @@
+
+.search-bar{
+    margin-top: 10px;
+}
+input[type=text] {
+    all: unset;
+    padding: 1.5rem;
+    background-color: #3CBC8D;
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+button{
+    all: unset;
+    padding: 1.5rem;
+    transition-duration: 0.4s;
+    margin-left: 2px;
+}
+button:hover {
+    background-color: #3CBC8D; /* Green */
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+audio::-webkit-media-controls-panel {
+    background-color: #3CBC8D;
+  }
